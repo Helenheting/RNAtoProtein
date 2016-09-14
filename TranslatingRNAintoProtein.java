@@ -43,7 +43,7 @@ for(int i=0; i<arr.length;i++){
         String str18="UAG";
 	String str19="UGA";
         if(str17.equals(arr[i])||str18.equals(arr[i])||str19.equals(arr[i])){
-        System.out.print("*************");}
+        break;}
 
 	String str20="UGU";
         String str21="UGC";
@@ -140,7 +140,6 @@ for(int i=0; i<arr.length;i++){
         String str62="GCG";
         if(str59.equals(arr[i])||str60.equals(arr[i])||str61.equals(arr[i])||str62.equals(arr[i])){
         System.out.print("A");}
-
 }
 }
 }
